@@ -1,0 +1,39 @@
+<!--code for home page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Hindi Swarvani App</title>
+</head>
+<body>
+  <div class="container" id="loginPage">
+    <div class="login-box">
+      <h1>अक्षर आरोग्य</h1>
+      <form id="loginForm" onsubmit="return submitLogin()">
+        <label for="युजर आयडी">युजर आयडी:</label>
+        <input type="text" id="userId" name="userId" required>
+        <label for="password">पासवर्ड:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit" class="yellow-button">लॉगिन</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container" id="homePage" style="display: none;">
+    <h1>होम पेज</h1>
+    <a href="./library.html" target="_blank">
+    <button class="purple-button" >लायब्ररी</button></a>
+    <a href="./interactive.html" >
+    <button class="pink-button" >संवादात्मक खेल</button>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
